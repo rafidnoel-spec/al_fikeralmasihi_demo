@@ -1,25 +1,30 @@
+<div dir="rtl">
+
 <p align="center"><img src="logo-dark.png" alt="مجلة الفكر المسيحي" width="420"></p>
 
-# مجلة الفكر المسيحي – demo
+# مجلة الفكر المسيحي – العرض التجريبي
 
-Färdigbyggd demo av tidningens nya plattform (C# + React + SQL). Den körs helt i webbläsaren, utan server. All data sparas lokalt i webbläsaren och kan återställas under *الإدارة ← الاستيراد والإعدادات*.
+نسخة جاهزة من المنصّة الجديدة للمجلة (C# + React + SQL) تعمل بالكامل في المتصفح بدون خادم. تُحفظ البيانات في متصفحك فقط، ويمكن إعادتها إلى البداية من *الإدارة ← الاستيراد والإعدادات*.
 
-Öppna `index.html` (eller GitHub Pages). Med raden **عرض تجريبي** byter du mellan delarna:
+افتح `index.html` (أو صفحة GitHub Pages)، واستخدم شريط **عرض تجريبي** للتنقل بين الأجزاء:
 
-| Del | Adress |
+| الجزء | العنوان |
 |---|---|
-| Tidningssidan (nyheter, nummer, om oss, prenumeration, kontakt, radio) | `index.html#/` |
-| Medlemsappen – läsa, lyssna, notiser | `index.html#/member` |
-| Författarportalen – skriva och spela in | `index.html#/author` |
-| Admin – granskning, nummer och design, användare, rollmatris, radio, import | `index.html#/admin` |
+| موقع المجلة (الأخبار، الأعداد، من نحن، مكتبة الناصرة، الاشتراك، اتصل بنا، الراديو) | `index.html#/` |
+| تطبيق الأعضاء – القراءة والاستماع والإشعارات | `index.html#/member` |
+| بوابة الكتّاب – الكتابة والتسجيل الصوتي | `index.html#/author` |
+| لوحة الإدارة – المراجعة، الأعداد وتصميمها، المستخدمون، مصفوفة الأدوار، الراديو، الاستيراد | `index.html#/admin` |
 
-**Demokonton** (klicka på dem på inloggningssidan, lösenord `Demo123!`):
+**الحسابات التجريبية** (اضغط عليها في صفحة الدخول، كلمة المرور `Demo123!`):
 `member@alfikr.demo` · `author@alfikr.demo` · `editor@alfikr.demo` · `admin@alfikr.demo` · `radio@alfikr.demo`
 
-### Prova hela flödet
-1. **الكتّاب** → logga in som författare → *مقال جديد* → skriv (eller spela in) → *إرسال للمراجعة*.
-2. **الإدارة** → logga in som redaktör → *مراجعة المقالات* → öppna artikeln, redigera → välj *العدد 3* → *موافقة*.
-3. *الأعداد* → *العدد 3* → välj layout, färg och omslag → *نشر العدد*.
-4. **الأعضاء** → logga in som medlem → notisen om det nya numret dyker upp → läs eller lyssna.
+### جرّب الدورة الكاملة
+1. **الكتّاب** ← ادخل ككاتب ← *مقال جديد* ← اكتب (أو سجّل بصوتك) ← *إرسال للمراجعة*.
+2. **الإدارة** ← ادخل كمحرر ← *مراجعة المقالات* ← افتح المقال وعدّله ← اختر *العدد 3* ← *موافقة*.
+3. *الأعداد* ← *العدد 3* ← اختر النمط واللون والغلاف ← *نشر العدد*.
+4. **الأعضاء** ← ادخل كعضو ← يظهر إشعار العدد الجديد ← اقرأ أو استمع.
 
-Källkoden finns i det privata repot `al_fikeralmasihi`. Nyheterna och bilderna kommer från christianthoughtirq.com. Artiklarna i numren är exempeltexter.
+### مصدر البيانات
+كل النصوص والصور مأخوذة من الموقع الحالي christianthoughtirq.com: الأخبار، صور الزيارات، الهيئة العليا للتحرير، الهيكلية الإدارية منذ 1964، الوكلاء، أسعار الاشتراك، كتب مكتبة الناصرة، وشعارات الشركاء. الأعداد التجريبية مركّبة من هذه النصوص. الحسابات فقط تجريبية، وأصوات الراديو نغمات تجريبية.
+
+</div>
